@@ -3,29 +3,31 @@
 }
 body {
   background-color: #23252c;
+  display: block;
+  margin: 0 auto;
 }
 header,
 main {
   background-color: #1a1b21;
-  height: 280px;
-  width: 250px;
 }
 header,
 main,
 footer {
   display: block;
   margin: 0 auto;
+  width: 250px;
 }
 
 img {
   display: block;
-  margin: 0 auto;
+  margin: 5 auto;
   width: 80px;
 }
 header {
   text-align: center;
   font-family: Inter;
 }
+
 h1 {
   font-size: 20px;
   color: white;
@@ -58,6 +60,7 @@ h5 {
 .email-button {
   width: 70px;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 4px;
   background: #fff;
